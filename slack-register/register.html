@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/slack-register/register.css">
+</head>
+<body>
+    <div class="main">
+        <div class="reg-box">
+              <!-- main login head-->
+              <div class="reg">Register</div>
+              <span class="inner-txt">Already have an account?&nbsp;<a href="/slack-login/login.html" class="sign-in">Sign in</a></span>
+              
+              <!-- input fields for collecting data-->
+              <div class="hed email">Email Address</div>
+              <input type="email" id="email" placeholder="sg1473150@gmail.com" class="inner-txt" onchange="getvalue(event,id)" required="mandatory">
+    
+              <div class="hed uname">Username</div>
+              <input type="text" id="fname" placeholder="" class="inner-txt" onchange="getvalue(event,id)" required="mandatory">
+
+              <div class="hed pass">Password</div>
+              <input type="password" id="pass" placeholder="Enter 6 characters or more" class="inner-txt" onchange="getvalue(event,id)" required="mandatory">
+
+              <div class="hed c-pass">Confirm Password</div>
+              <input type="password" id="con-pass" placeholder="Enter 6 characters or more" class="inner-txt" onchange="getvalue(event,id)" required="mandatory">
+ 
+              <div class="hed mob">Mobile number</div>
+              <input type="number" id="num" placeholder="" class="inner-txt" onchange="getvalue(event,id)" required="mandatory">
+              <!--buttons-->
+              <div class="hed-btn">
+                <button class="reg-clk">REGISTER</button>
+              </div>
+        </div>
+    </div>
+    <script src="/slack-register/register.js"></script>
+</body>
+</html>
