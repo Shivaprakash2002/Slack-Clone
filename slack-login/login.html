@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/slack-login/login.css">
+</head>
+<body>
+  <div class="outer-box">
+    <div class="main">
+    <div class="log-box">
+          <!-- main login head-->
+          <div class="log-in">Login</div>
+          <span class="inner-txt">Doesn't have an account yet?&nbsp;<a href="/slack-register/register.html" class="sign-up">Sign Up</a></span>
+          
+          <!-- input fields for collecting data-->
+          <div class="hed">Email Address</div>
+          <input type="email" id="uname" placeholder="sg1473150@gmail.com" class="inner-txt" onchange="getValue(event,'user')">
+
+          <div class="hed">Password
+          <span><a href="" class="for-pass">Forget password?</a></span>
+          </div>
+
+          <input type="password" id="pass" placeholder="Enter 6 characters or more" class="inner-txt" onchange="getValue(event,'password')">
+          <div class="chk-main">
+          <input type="checkbox" id="check">
+          <span class="chk-txt">Remember me</span>
+          </div>
+
+
+          <!--buttons-->
+          <button class="login-clk">LOGIN</button>
+            <hr width="30%">
+            <span id="log-with">or login with</span>
+            <hr width="30%">
+
+          <div class="btn">
+            <button class="g-login">Google</button>
+            <button class="f-login">Facebook</button>
+          </div>
+    </div>
+    <div class="img">
+          <img src="/login-img.png" alt="login" id="img">
+    </div>
+    </div>
+  </div>
+    <script src="/slack-login/login.js"></script>
+</body>
+</html>
