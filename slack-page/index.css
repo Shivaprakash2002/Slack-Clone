@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+    font-family: "Slack-Circular-Pro","Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    margin: 0;
+}
+body{
+    background-color: #4f0257f8;
+}
+.main{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding:10px;
+    display: flex;
+}
+.left{
+    width: 60%;
+    display: flex;
+}
+#hed{
+    display: flex;
+    align-items: center;
+    font-family: "Slack-Circular-Pro","Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: aliceblue;
+}
+.opt{
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style: none;
+    font-family: "Slack-Circular-Pro","Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: aliceblue;
+}
+img{
+    height: 25px;
+}
+.buttons{
+    width: 20%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+} 
+.btn1,.btn2{
+    height: 40px;
+    border: none;
+    font-family: "Slack-Circular-Pro","Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight:700;
+    color: aliceblue;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #4f0257f8;
+}
+.btn1:hover{
+    border: 2px solid white;
+}
+.btn2{
+    background-color: white;
+    color: #4a154b;
+}
+.btn2:hover{
+    border: 8px #4a154b;
+    border-radius: 0;
+}
+#search{
+    color: aliceblue;
+    font-size: 20px;
+}
+.sign{
+    color: aliceblue;
+    font-family: "Slack-Circular-Pro","Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#first-main{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.txt{
+   height: 400px;
+   width: 50%;
+   margin-top: 40px;
+}
+.txt h1{
+    font-size: 60px;
+    font-family: "Slack-Circular-Pro","Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+}
+#t1{
+    color: aliceblue;
+    letter-spacing: 0;
+}
+#t2{
+    color: rgb(255, 187, 0);
+    letter-spacing: 0;
+}
+.fm-btn{
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+}
+#fm-para1{
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.fm-btn .b1{
+    margin-top: 20px;
+    height: 50px;
+    background-color: #fff;
+    color: #611f69;
+    font-family: "Slack-Circular-Pro","Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+}
+.fm-btn .b2{
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgb(49, 130, 253);
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+svg{
+     height: 42px;
+     width: 45px;
+     padding: 8px;
+     background-color: #fff;
+}
+.fm-b #g-txt{
+    color: #fff;
+    background-color: rgb(49, 130, 253);
+    margin-left: 8px;
+    font-weight: 700;
+}
+#bot-txt{
+    margin-top: 10px;
+    font-family: "Slack-Circular-Pro","Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    color: #fff;
+}
+.slide{
+    margin-top: 40px;
+    height: 350px;
+    width: 50%;
+    background-color: #efebef;
+}
+video{
+    width: 100%;
+    background-color: #efebef;
+}
+.second-main{
+    background-color:#f4ede4;
+    margin-top: 20px;
+}
+.sectop-txt,.clients{
+    max-width: 1280px;
+    margin:0 auto;
+}
+.sectop-txt{
+    padding-top:50px;
+    text-align:center;
+    font-weight: 800;
+    font-size: 16px;
+}
+.clients{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.logo-item{
+    height: 40px;
+}
+.third-main,.fourth-main,.fifth-main{
+    background-color:#f4ede4;
+    padding-top: 80px;
+}
+.slides{
+    width: 600px;
+}
+.third-slide,.fourth-slide,.fifth-slide{
+    display: flex;
+    justify-content: space-around;   
+}
+.slide-txt{
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 50px;
+}
+.slide-para{
+    margin:20px auto;
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+.a-link{
+    color: #1264a3;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+.fourth-slide{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fifth-main,.sixth-main{
+    padding: 70px 0 70px 0;
+}
+.sixth-main,.seventh-main{
+    background-color: white;
+}
+.sixth-slide{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.sixth-hed{
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 790;
+    letter-spacing: 0.1px;
+}
+.sixth-txt{
+    margin: 18px 0 0 0;
+    text-align: center;
+    font-size: 19px;
+}
+.sixth-links{
+    margin: 30px 0 50px 0;
+    display: flex;
+    justify-content: center;
+}
+#sixth-firstlink{
+    padding: 19px 40px;
+    background-color: #611f69;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#sixth-secondlink{
+    margin-left: 10px;
+    padding: 19px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #611f69;
+}
+.sixth-values{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 20px 0;
+    padding: 15px 0 0 0;
+}
+.num{
+    color: #611f69;
+    font-size: 70px;
+}
+.li-txt{
+    color: black;
+    font-weight: 100;
+    width: 200px;
+}
+.sixth-slide{
+    position: relative;
+}
+.icon{
+    height: 60px;
+}
+#i1{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+#i2{
+    position: absolute;
+    top: 140px;
+}
+#i3{
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+#i4{
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+#i5{
+    position: absolute;
+    top: 100px;
+    right: 120px;
+}
+#i6{
+    position: absolute;
+    top: 150px;
+    left: 190px;
+}
+.yt-vid{
+    height: 300px;
+    width: 800px;
+    border-radius: 0 200px 200px 0px;
+}
+.sevmain-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ytright-txt{
+    padding: 30px;
+    width: 800px;
+}
+.yt-txt{
+    font-size: 26px;
+    font-style: italic;
+}
